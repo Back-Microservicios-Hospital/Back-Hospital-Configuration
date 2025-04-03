@@ -1,0 +1,8 @@
+server:
+  port: 9092
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8850
+
+message: Configuracion de doctor-service levantado!
