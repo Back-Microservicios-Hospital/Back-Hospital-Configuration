@@ -4,6 +4,8 @@ spring:
   cloud:
     config:
       uri: http://localhost:8850
+  application:
+    name: paciente-service
 
 eureka:
   client:
